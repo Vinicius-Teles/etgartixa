@@ -1,26 +1,69 @@
- .estado{
-	 background:url('../img/0.png') no-repeat !important;
- }
- .move{
- 	background-size: 100% !important;
- 	position: absolute;
- 	background: url('../img/1.png') no-repeat;
- 	width: 20%;
- 	height: 100%;
- }
- .tela{
-	 background:url('../img/tela.png') no-repeat !important;
-	 background-repeat: repeat !important;
-	 position: absolute;
-	 width: 100%;
-	 height: 100%;
-	 z-index: 1;
- }
- body{
- 	margin: 0 !important;
- 	background: #f8f9f0;
- 	overflow-y: hidden;
- }
- .white{
- 	background: white;
- }
+.fire{
+	background:url('../img/fire.png') no-repeat !important;
+	background-size: 100% !important;
+	position: absolute;
+	height: 50px;
+	width: 30px;
+	background: red;
+}
+.red{
+	background-color: red !important;
+}
+.estado{
+ background:url('../img/0.png') no-repeat !important;
+}
+.move{
+	background-size: 100% !important;
+	position: absolute;
+	background: url('../img/1.png') no-repeat;
+	width: 200px;
+	height: 230px;
+}
+.tela{
+ background:url('../img/tela.png') no-repeat !important;
+ background-repeat: repeat !important;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ z-index: 2;
+}
+body{
+	margin: 0 !important;
+	background: #f8f9f0;
+	overflow: hidden;
+	background: #000;
+}
+
+.life{
+	background: #fff;
+	border: 2px solid red;
+	margin-right: 20px;
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+
+.lifes{
+	position: relative;
+	z-index: 999999;
+	top: 20px;
+	left: 20px;
+}
+
+.white{
+	background: white;
+}
+.fire_background{
+	background:url('../img/fire-bg.gif') no-repeat !important;
+	background-repeat: repeat !important;
+	background-size: 100% !important;
+	position: fixed;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+}
+.fire_background img{
+	height: 100%;
+	width: 100%;
+}
